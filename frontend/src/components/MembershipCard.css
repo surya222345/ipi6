@@ -78,20 +78,21 @@
   flex-direction: column;
 }
 
-.card-title-main {
-  font-size: 3.2mm;
+.card-org-title {
+  font-size: 3.0mm;
   font-weight: 800;
   color: var(--accent);
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
   line-height: 1.2;
 }
 
 .card-title-sub {
-  font-size: 2mm;
+  font-size: 1.5mm;
   color: var(--text-secondary);
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
+  line-height: 1;
 }
 
 /* Card Content Area */

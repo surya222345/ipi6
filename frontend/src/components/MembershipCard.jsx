@@ -16,13 +16,13 @@ export default function MembershipCard({ member, showActions = true }) {
     <div className="id-card-front">
       {/* Header bar */}
       <div className="card-header-bar">
-        <div className="card-logo">🎗️</div>
+        <div className="card-logo">🤝</div>
         <div className="card-title-group">
-          <span className="card-title-main tamil">உறுப்பினர் அடையாள அட்டை</span>
-          <span className="card-title-sub">Membership Identity Card</span>
+          <span className="card-org-title tamil">இளைஞர்கள் பொதுநல இயக்கம்</span>
+          <span className="card-title-sub">YOUTH PUBLIC WELFARE MOVEMENT</span>
         </div>
       </div>
-
+      
       {/* Main card body */}
       <div className="card-content">
         <div className="card-photo-box">
@@ -57,8 +57,8 @@ export default function MembershipCard({ member, showActions = true }) {
 
       {/* Footer bar */}
       <div className="card-footer-bar">
-        <span className="tamil">உறுப்பினர் சேர்க்கை</span>
-        <span>Registered Member</span>
+        <span className="tamil">உறுப்பினர் அடையாள அட்டை</span>
+        <span>MEMBERSHIP IDENTITY CARD</span>
       </div>
     </div>
   );

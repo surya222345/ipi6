@@ -23,14 +23,14 @@ export default function HomePage() {
         <div className="hero-bg"></div>
         <div className="page-container">
           <div className="hero-content">
-            <div className="hero-badge">🇮🇳 தமிழ்நாடு இயக்கம்</div>
-            <h1 className="hero-title tamil">
-              உரிப்பினர் <span className="highlight">சேர்க்கை</span>
+            <div className="hero-badge">📍 எம்.ஆர். பாளையம், மதுக்கரை, கோவை</div>
+            <h1 className="hero-title tamil" style={{ fontSize: 'clamp(36px, 6vw, 64px)' }}>
+              இளைஞர்கள் <span className="highlight">பொதுநல இயக்கம்</span>
             </h1>
-            <p className="hero-subtitle">Urippinar Serkkai — Tamil Membership Registration</p>
+            <p className="hero-subtitle">Youth Public Welfare Movement — Coimbatore</p>
             <p className="hero-desc">
-              நமது சமூக இயக்கத்தில் இணையுங்கள். உங்கள் உரிமைகளை பாதுகாக்க,
-              உங்கள் குரலை எழுப்ப, நாளை மாற்ற — இன்றே பதிவு செய்யுங்கள்.
+              நமது சமூக சேவை இயக்கத்தில் இணையுங்கள். மக்களின் நலன், சமூக ஒற்றுமை மற்றும் 
+              மனிதநேயத்தை வளர்க்க — இன்றே உறுப்பினராக பதிவு செய்யுங்கள்.
             </p>
             <div className="hero-actions">
               <Link to="/register" className="btn btn-primary btn-lg">
@@ -94,7 +94,8 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="footer">
         <div className="page-container">
-          <p className="tamil">© 2025 உரிப்பினர் சேர்க்கை. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
+          <p className="tamil">© 2025 இளைஞர்கள் பொதுநல இயக்கம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
+          <p style={{ fontSize: '12px', marginTop: '4px', color: 'var(--text-muted)' }}>எம்.ஆர். பாளையம், மதுக்கரை, கோயம்புத்தூர்</p>
         </div>
       </footer>
     </div>

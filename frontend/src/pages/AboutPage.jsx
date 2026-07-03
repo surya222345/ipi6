@@ -28,6 +28,7 @@ export default function AboutPage() {
     <div className="about-container">
       <div className="about-header">
         <h1 className="about-title tamil-title">இளைஞர்கள் பொதுநல இயக்கம்</h1>
+        <p className="about-location">எம்.ஆர். பாளையம், மதுக்கரை, கோயம்புத்தூர்</p>
         <p className="about-subtitle">கொள்கை & லட்சியம்</p>
       </div>
 

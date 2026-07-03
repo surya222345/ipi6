@@ -21,10 +21,10 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-inner">
         <Link to="/" className="nav-brand">
-          <span className="nav-logo">🏛️</span>
+          <span className="nav-logo">🤝</span>
           <div>
-            <div className="brand-tamil tamil">உரிப்பினர் சேர்க்கை</div>
-            <div className="brand-english">Urippinar Serkkai</div>
+            <div className="brand-tamil tamil" style={{ fontSize: '16px', fontWeight: '800' }}>இளைஞர்கள் பொதுநல இயக்கம்</div>
+            <div className="brand-english" style={{ fontSize: '10px', color: 'var(--accent)' }}>எம்.ஆர். பாளையம், மதுக்கரை, கோவை</div>
           </div>
         </Link>
 

@@ -31,6 +31,7 @@ export default function Navbar() {
         <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <Link to="/" className={`nav-link ${isActive('/') ? 'active' : ''}`}>🏠 முகப்பு</Link>
           <Link to="/register" className={`nav-link ${isActive('/register') ? 'active' : ''}`}>📝 பதிவு செய்க</Link>
+          <Link to="/about" className={`nav-link ${isActive('/about') ? 'active' : ''}`}>ℹ️ கொள்கை</Link>
           <Link to="/admin" className={`nav-link ${isActive('/admin') ? 'active' : ''}`}>👨‍💼 Admin</Link>
           <Link to="/register" className="btn btn-primary" style={{ padding: '8px 16px', fontSize: '13px' }}>
             இப்போதே சேர்க

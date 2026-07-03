@@ -5,6 +5,7 @@ import RegisterPage from './pages/RegisterPage';
 import AdminPage from './pages/AdminPage';
 import SuccessPage from './pages/SuccessPage';
 import VerifyPage from './pages/VerifyPage';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/success/:memberId" element={<SuccessPage />} />
         <Route path="/admin" element={<AdminPage />} />
         <Route path="/verify/:memberId" element={<VerifyPage />} />

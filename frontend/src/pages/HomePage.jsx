@@ -23,7 +23,7 @@ export default function HomePage() {
         <div className="hero-bg"></div>
         <div className="page-container">
           <div className="hero-content">
-            <div className="hero-badge">📍 எம்.ஆர். பாளையம், மதுக்கரை, கோவை</div>
+            <div className="hero-badge">📍 மரப்பாலம், மதுக்கரை, கோவை</div>
             <h1 className="hero-title tamil" style={{ fontSize: 'clamp(36px, 6vw, 64px)' }}>
               இளைஞர்கள் <span className="highlight">பொதுநல இயக்கம்</span>
             </h1>
@@ -95,7 +95,7 @@ export default function HomePage() {
       <footer className="footer">
         <div className="page-container">
           <p className="tamil">© 2025 இளைஞர்கள் பொதுநல இயக்கம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
-          <p style={{ fontSize: '12px', marginTop: '4px', color: 'var(--text-muted)' }}>எம்.ஆர். பாளையம், மதுக்கரை, கோயம்புத்தூர்</p>
+          <p style={{ fontSize: '12px', marginTop: '4px', color: 'var(--text-muted)' }}>மரப்பாலம், மதுக்கரை, கோயம்புத்தூர்</p>
         </div>
       </footer>
     </div>

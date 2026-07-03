@@ -24,7 +24,7 @@ export default function Navbar() {
           <span className="nav-logo">🤝</span>
           <div>
             <div className="brand-tamil tamil" style={{ fontSize: '16px', fontWeight: '800' }}>இளைஞர்கள் பொதுநல இயக்கம்</div>
-            <div className="brand-english" style={{ fontSize: '10px', color: 'var(--accent)' }}>எம்.ஆர். பாளையம், மதுக்கரை, கோவை</div>
+            <div className="brand-english" style={{ fontSize: '10px', color: 'var(--accent)' }}>மரப்பாலம், மதுக்கரை, கோவை</div>
           </div>
         </Link>
 
